@@ -1,0 +1,12 @@
+name: bioinformatica
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastp
+  - shovill
+  - bakta
+  - fastqc
+  - trimmomatic
+  - seqtk
+  - seqkit
