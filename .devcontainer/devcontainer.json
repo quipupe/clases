@@ -1,6 +1,6 @@
 {
-  "name": "Entorno Bioinformatica",
+  "name": "bioinformatica",
   "image": "condaforge/miniforge3:latest",
-  "postCreateCommand": "mamba env create -f environment.yaml",
+  "postCreateCommand": "mamba env create -f .devcontainer/environment.yaml",
   "postStartCommand": "echo 'conda activate bioinformatica' >> ~/.bashrc"
 }
