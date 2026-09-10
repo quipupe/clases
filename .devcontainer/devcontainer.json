@@ -1,0 +1,8 @@
+{
+  "name": "bioinformatica",
+  "image": "condaforge/miniforge3:latest",
+  "postCreateCommand": "mamba env create -f environment.yml",
+  "remoteEnv": {
+    "PATH": "/opt/conda/envs/bioinfo/bin:${containerEnv:PATH}"
+  }
+}
